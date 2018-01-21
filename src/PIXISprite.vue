@@ -14,7 +14,7 @@ export default {
   render () {},
 
   created () {
-    this.sprite = this.$pixi.PIXIWrapper.PIXI.Sprite.fromImage('https://vuejs.org/images/logo.png')
+    this.sprite = this.$pixi.PIXIWrapper.PIXI.Sprite.fromImage(this.imagePath)
     // Set the initial position.
     this.sprite.x = this.x || 0
     this.sprite.y = this.y || 0
